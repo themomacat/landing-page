@@ -18,11 +18,13 @@ body {
 
 .logo {
     font-weight: 900;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: #f9faf8;
     margin: 0 16px;
 }
 
@@ -38,9 +40,10 @@ a {
     margin-right: 100px;
     align-items: start;
     justify-content: center;
+    font-size: 24pxS;
 }
 .hero-header {
-    font-size: 24px;
+    font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
 }
@@ -69,6 +72,7 @@ button {
 .demo-head {
     text-align: center;
     font-weight: 700;
+    font-size: 36px;
     margin: 16px;
 }
 
@@ -94,15 +98,17 @@ button {
     background-color: #e5e7eb;
     color:#1f2937;
     align-items: center;
-    padding: 36px;
+    padding: 36px 100px;
 }
 
 .test-body {
     font-style:italic;
+    font-size: 36px;
 }
 
 .test-credit {
     font-weight: 900;
+    align-self: flex-end;
 }
 
 .disc-box {
@@ -115,26 +121,24 @@ button {
     padding: 45px;
     border-radius: 10px;
     display: flex;
-}
-
-.disc-text {
-    
+    justify-content: space-between;
 }
 
 .disc-header {
     font-weight: 900;
     font-size: 24px;
 }
+
 .disclaimer button {
     border-color: #f9faf8;
-    color: #f9faf8;   
+    color: #f9faf8;  
 }
 
 .footer {
     display: flex;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 8px 56px;
+    padding: 16px 56px;
     text-align: center;
     justify-content: center;
 }
